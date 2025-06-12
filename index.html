@@ -5,24 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>SkyGallery: World Skies</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-  <div id="loader" class="loader"></div>
+  <div id="loader" class="loader"><img src="assets/loader.gif" alt="Loading..." /></div>
+
   <header>
     <h1>🌍 SkyGallery</h1>
     <p>Explore skies around the world — Day & Night</p>
   </header>
 
-  <main>
-    <section class="sky-grid">
-      <!-- JS will dynamically fill sky cards here -->
-    </section>
-  </main>
+  <main><section class="sky-grid"></section></main>
 
-  <footer>
-    <p>Powered by GitHub CDN | Inspired by Global Skies</p>
-  </footer>
+  <footer><p>Powered by GitHub CDN | Inspired by Global Skies</p></footer>
 
   <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
 </body>
 </html>
